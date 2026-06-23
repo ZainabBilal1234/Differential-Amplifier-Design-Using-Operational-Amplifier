@@ -1,22 +1,3 @@
-This project focuses on the design and implementation of a Differential Amplifier using an operational amplifier. The circuit is designed to generate an output voltage according to the relation Vo = (Rb/Ra)(V₂ − V₁), where Rb is selected as the largest digit and Ra as the smallest digit of the student's roll number. For roll number 24L-6127, the values used are Rb = 7 kΩ and Ra = 1 kΩ, resulting in a gain of 7.
+This project presents the design and implementation of a Differential Amplifier using an operational amplifier to produce an output voltage according to the equation Vo = (Rb/Ra)(V₂ − V₁). The resistor values were selected based on the student's roll number, where Rb corresponds to the largest digit and Ra corresponds to the smallest digit. For roll number 24L-6127, the values used were Rb = 7 kΩ and Ra = 1 kΩ, resulting in an amplifier gain of 7. The circuit was powered using a ±15 V supply and designed to ensure the op-amp remained within its linear operating region.
 
-The amplifier was designed using a ±15 V power supply and tested with DC input voltages while ensuring that the op-amp operated within its linear region. The project involved performing design calculations, creating the circuit schematic, simulating the design in Proteus, implementing it on a breadboard, and fabricating a Printed Circuit Board (PCB) for hardware verification.
-
-The results obtained from simulation and hardware testing validated the theoretical design and demonstrated the practical operation of differential amplifiers in analog signal processing applications.
-
-Tools & Technologies
-Proteus
-Breadboard Prototyping
-PCB Design & Fabrication
-Operational Amplifier (Op-Amp)
-DC Power Supply (±15 V)
-Analog Circuit Design
-Key Features
-Differential Amplifier Design
-Gain Based on Roll Number Digits
-Proteus Simulation
-Breadboard Implementation
-PCB Fabrication
-Hardware Verification
-Linear Region Operation Analysis
-Analog Signal Processing Application
+The project included theoretical design calculations, circuit schematic development, Proteus simulation, breadboard implementation, and PCB fabrication. Both software and hardware results were analyzed and compared to verify the accuracy of the design. The successful implementation demonstrates the practical application of operational amplifiers in differential signal amplification and analog circuit design, providing hands-on experience with simulation, PCB development, and hardware testing.
